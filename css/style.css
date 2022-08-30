@@ -1,0 +1,29 @@
+body{height:100%;background-image: linear-gradient(to right top, #e5ebea, #dee4e4, #d8dedd, #d1d7d7, #cbd1d1);}
+.main{float:left;width:100%;position:relative;height:100%}
+.loader {display: inline-block; position: absolute; width: 720px; height: 720px; left:0; right:0;margin:auto;}
+.loader div {position: absolute; border: 1px solid #2673FC; opacity: 1; border-radius:  70% 60% 80% 50%;animation: lds-ripple 10s cubic-bezier(0, 0.2, 0.8, 1) infinite; }
+.loader div:nth-child(2) {animation-delay: -0.5s; }
+.loader div:nth-child(3) {animation-delay: -1s; }
+.loader div:nth-child(4) {animation-delay: -1.5s; }
+.loader div:nth-child(5) {animation-delay: -2s; }
+.loader div:nth-child(6) {animation-delay: -2.5s; }
+.loader div:nth-child(7) {animation-delay: -3s; }
+.loader div:nth-child(8) {animation-delay: -3.5s; }
+.loader div:nth-child(9) {animation-delay: -4s; }
+.loader div:nth-child(10) {animation-delay: -4.5s; }
+.loader div:nth-child(11) {animation-delay: -5s; }
+.loader div:nth-child(12) {animation-delay: -5.5s; }
+.loader div:nth-child(13) {animation-delay: -6s; }
+.loader div:nth-child(14) {animation-delay: -6.5s; }
+.loader div:nth-child(15) {animation-delay: -7s; }
+.loader div:nth-child(16) {animation-delay: -7.5s; }
+.loader div:nth-child(17) {animation-delay: -8s; }
+.loader div:nth-child(18) {animation-delay: -8.5s; }
+.loader div:nth-child(19) {animation-delay: -9s; }
+
+@keyframes lds-ripple {
+	0% {top: 360px; left: 360px; width: 0; height: 0; opacity: 0; }
+	4.9% {top: 360px; left: 360px; width: 0; height: 0; opacity: 0; }
+	5% {top: 360px; left: 360px; width: 0; height: 0; opacity: 1; }
+	100% {top: 0px; left: 0px; width: 720px; height: 720px; opacity: 0; }
+}
